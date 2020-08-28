@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.developertechie.statusdownloader.activity.MainActivity">
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="101"
+        android:visible="true"
+        android:icon="@drawable/ic_share_sky_white_24dp"
+        android:title="@string/share"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="100"
+        android:visible="true"
+        android:icon="@drawable/ic_save_sky_white_24dp"
+        android:title="@string/save"
+        app:showAsAction="always" />
+</menu>
